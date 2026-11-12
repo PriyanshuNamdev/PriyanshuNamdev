@@ -1,117 +1,28 @@
-<!--
-  Priyanshu Namdev | GitHub Profile
--->
+### Priyanshu Namdev
 
-<div align="center">
+I build iOS apps in Swift and SwiftUI. I care about the small stuff: how a swipe feels, what an empty state says, whether the app needs the network at all.
 
-# Hey, I'm Priyanshu 👋
+&nbsp;
 
-### iOS Developer · Swift · SwiftUI
+**Things I've made**
 
-Building thoughtful native experiences and turning ideas into products.
+**[Decima](https://github.com/PriyanshuNamdev/Decima)** — cleans up your Photos library. It finds screenshots, exact duplicates, look-alike shots and large videos, then lets you clear them in bulk or swipe through them one at a time. All of it runs on your phone, and no photo ever leaves it.
+<sub>SwiftUI · PhotoKit · Vision · no third-party code</sub>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/priyanshu-namdev/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PriyanshuNamdev)
-[![NuDerm](https://img.shields.io/badge/NuDerm-Organization-2E6146?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NuDerm)
+**[Intent](https://github.com/PriyanshuNamdev/Intent)** — an alarm you can't snooze half-asleep. To turn it off you have to finish a short challenge first, so by the time it stops you're actually awake.
+<sub>SwiftUI · Swift Playgrounds</sub>
 
-</div>
+**[NuDerm](https://github.com/NuDerm)** — a skincare app that looks at your skin with the camera, checks what's in your products, and tracks your daily routine.
+<sub>SwiftUI · Computer Vision</sub>
 
----
+&nbsp;
 
-## 👨‍💻 About Me
+**How I work**
 
-I'm a developer passionate about building products that solve real problems. My primary focus is native iOS development, exploring Apple's ecosystem and creating clean, intuitive user experiences.
+I start in Figma, then move to code early and work out the rest on a real device. I reach for Apple's own frameworks before anything else, and I'd rather ship three screens that feel right than ten that half work.
 
-- 📱 Building with **Swift & SwiftUI**
-- 🍎 Exploring modern Apple frameworks and on-device intelligence
-- 🧩 Interested in product engineering, architecture and UI/UX
-- 🚀 Turning ideas into real-world applications
+**Tools:** Swift, SwiftUI, UIKit, SwiftData, Xcode, Figma, Supabase, Git
 
-## 🚀 Featured Projects
+&nbsp;
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ⏰ Intent
-
-An interactive iOS alarm experience designed to make waking up more intentional.
-
-**Tech:** Swift · SwiftUI
-
-[View Repository →](https://github.com/PriyanshuNamdev/Intent)
-
-</td>
-<td width="50%" valign="top">
-
-### 🧴 NuDerm
-
-A personalized skincare platform combining skin analysis, product intelligence and routine tracking.
-
-**Tech:** Swift · SwiftUI · Computer Vision
-
-[Visit Organization →](https://github.com/NuDerm)
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### ✨ Decima
-
-One of my featured projects, exploring software development and building practical solutions.
-
-[View Repository →](https://github.com/PriyanshuNamdev/Decima)
-
-</td>
-</tr>
-</table>
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=swift,java,js,ts" />
-
-**Development Tools**
-
-<img src="https://skillicons.dev/icons?i=apple,xcode,git,github,vscode" />
-
-**Backend & Other Tools**
-
-<img src="https://skillicons.dev/icons?i=supabase,postman,figma" />
-
-</div>
-
-## 📊 GitHub Statistics
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=PriyanshuNamdev&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" />
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PriyanshuNamdev&layout=compact&theme=transparent&hide_border=true" />
-
-<img width="90%" src="https://streak-stats.demolab.com?user=PriyanshuNamdev&theme=transparent&hide_border=true" />
-
-</div>
-
-## 🌱 Currently Exploring
-
-- Modern Swift and SwiftUI
-- Apple's on-device intelligence and machine learning
-- Scalable iOS application architecture
-- Building better digital product experiences
-
----
-
-<div align="center">
-
-### Let's build something meaningful.
-
-[LinkedIn](https://www.linkedin.com/in/priyanshu-namdev/) · [GitHub](https://github.com/PriyanshuNamdev) · [NuDerm](https://github.com/NuDerm)
-
-*Build. Learn. Ship. Repeat.*
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/priyanshu-namdev/)
