@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" width="520" height="340" role="img" aria-label="Intent: alarm that stops once the challenge is done">
+<style>
+  .ghost { fill: #1F2328; opacity: .06; }
+  .ink { fill: #1F2328; }
+  .soft { fill: #59636E; }
+  .panel { fill: #F3F5F8; }
+  .line { stroke: #1F2328; }
+  @media (prefers-color-scheme: dark) {
+    .ghost { fill: #F0F6FC; opacity: .07; }
+    .ink { fill: #F0F6FC; }
+    .soft { fill: #9198A1; }
+    .panel { fill: #161B22; }
+    .line { stroke: #F0F6FC; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; }
+  }
+
+  .clock { transform-origin: 260.0px 178.0px; animation: shake 5s ease-in-out infinite; }
+  @keyframes shake {
+    0% { transform: rotate(0); } 2% { transform: rotate(-9deg); } 4% { transform: rotate(9deg); }
+    6% { transform: rotate(-9deg); } 8% { transform: rotate(9deg); } 10% { transform: rotate(-6deg); }
+    12% { transform: rotate(6deg); } 14%,100% { transform: rotate(0); } }
+  .prog { animation: prog 5s ease-in-out infinite; }
+  @keyframes prog { 0%,14% { stroke-dashoffset: 716.3; } 70%,92% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 716.3; opacity: 0; } }
+  .sun { opacity: 0; transform-box: fill-box; transform-origin: center; animation: sun 5s ease infinite; }
+  @keyframes sun { 0%,70% { opacity: 0; transform: scale(.6); } 76%,92% { opacity: 1; transform: scale(1); } 100% { opacity: 0; } }
+</style>
+<rect class="panel" width="520" height="340" rx="28"/>
+
+<circle cx="260.0" cy="178.0" r="114" fill="none" class="line" stroke-width="6" opacity=".08"/>
+<circle cx="260.0" cy="178.0" r="114" fill="none" stroke="#FF7A45" stroke-width="6" stroke-linecap="round"
+  stroke-dasharray="716.3" stroke-dashoffset="716.3" transform="rotate(-90 260.0 178.0)" class="prog"/>
+<g class="clock">
+  <circle cx="198.0" cy="98.0" r="26" fill="#FFC233"/>
+  <circle cx="322.0" cy="98.0" r="26" fill="#FFC233"/>
+  <circle cx="260.0" cy="178.0" r="86" fill="#3B9EFF"/>
+  <circle cx="260.0" cy="178.0" r="68" fill="#fff"/>
+  <line x1="260.0" y1="178.0" x2="260.0" y2="132.0" stroke="#1F2328" stroke-width="7" stroke-linecap="round"/>
+  <line x1="260.0" y1="178.0" x2="292.0" y2="188.0" stroke="#1F2328" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="260.0" cy="178.0" r="7" fill="#FF7A45"/>
+</g>
+<g class="sun"><circle cx="260.0" cy="178.0" r="68" fill="#FFC233"/>
+  <path d="M234.0 182.0q26 26 52 0" stroke="#1F2328" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="242.0" cy="164.0" r="5" fill="#1F2328"/><circle cx="278.0" cy="164.0" r="5" fill="#1F2328"/></g>
+
+</svg>

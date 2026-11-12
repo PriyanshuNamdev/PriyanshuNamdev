@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" width="520" height="340" role="img" aria-label="NuDerm: camera scanning skin">
+<style>
+  .ghost { fill: #1F2328; opacity: .06; }
+  .ink { fill: #1F2328; }
+  .soft { fill: #59636E; }
+  .panel { fill: #F3F5F8; }
+  .line { stroke: #1F2328; }
+  @media (prefers-color-scheme: dark) {
+    .ghost { fill: #F0F6FC; opacity: .07; }
+    .ink { fill: #F0F6FC; }
+    .soft { fill: #9198A1; }
+    .panel { fill: #161B22; }
+    .line { stroke: #F0F6FC; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; }
+  }
+
+  .scan { animation: scan 3.2s ease-in-out infinite alternate; }
+  @keyframes scan { from { transform: translateY(0); } to { transform: translateY(180px); } }
+  .dot { transform-box: fill-box; transform-origin: center; animation: dot 6.4s ease infinite; }
+  @keyframes dot { 0% { opacity: 0; transform: scale(0); } 8%,80% { opacity: 1; transform: scale(1); } 92%,100% { opacity: 0; transform: scale(0); } }
+</style>
+<rect class="panel" width="520" height="340" rx="28"/>
+
+<ellipse cx="260.0" cy="170.0" rx="70" ry="92" fill="#FFD9C2"/>
+<ellipse cx="260.0" cy="170.0" rx="70" ry="92" fill="none" stroke="#FF9466" stroke-width="3" opacity=".5"/>
+<circle class="dot" cx="255" cy="177" r="6" fill="#FFC233" style="animation-delay:0.30s"/><circle class="dot" cx="255" cy="213" r="6" fill="#FF5C8A" style="animation-delay:0.42s"/><circle class="dot" cx="230" cy="171" r="6" fill="#34C77B" style="animation-delay:0.54s"/><circle class="dot" cx="271" cy="132" r="6" fill="#FFC233" style="animation-delay:0.66s"/><circle class="dot" cx="241" cy="121" r="6" fill="#34C77B" style="animation-delay:0.78s"/><circle class="dot" cx="273" cy="181" r="6" fill="#FFC233" style="animation-delay:0.90s"/><circle class="dot" cx="305" cy="188" r="6" fill="#34C77B" style="animation-delay:1.02s"/><circle class="dot" cx="274" cy="185" r="6" fill="#34C77B" style="animation-delay:1.14s"/><circle class="dot" cx="296" cy="182" r="6" fill="#FFC233" style="animation-delay:1.38s"/><circle class="dot" cx="243" cy="181" r="6" fill="#FF5C8A" style="animation-delay:1.50s"/>
+<path d="M165.0 78.0V52.0H191.0 M329.0 52.0H355.0V78.0 M355.0 262.0V288.0H329.0 M191.0 288.0H165.0V262.0" fill="none" stroke="#3B9EFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="scan"><rect x="175.0" y="60.0" width="170" height="4" rx="2" fill="#3B9EFF"/>
+<rect x="175.0" y="64.0" width="170" height="34" fill="#3B9EFF" opacity=".14"/></g>
+
+</svg>
